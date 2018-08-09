@@ -1,0 +1,35 @@
+.input-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+input[type=submit], input[type=text] {
+  line-height: 40px;
+  font-size: 26px;
+}
+input::placeholder {
+  text-align: center;
+}
+.input-text {
+  height: 40px;
+  width: 40vw;
+  border: solid 2px black;
+  font-size: 26px;
+}
+@media (max-width: 1000px) {
+  .input-text {
+    width: 80vw;
+  }
+}
+.add-btn {
+  position: absolute;
+  right: 0;
+  width: 46px;
+  height: 46px;
+  border: solid 2px black;
+  border-left: solid 1px black;
+  cursor: pointer;
+}

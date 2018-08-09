@@ -1,0 +1,43 @@
+.list-item {
+    width: 90%;
+    line-height: 40px;
+    margin: 20px 8px;
+    list-style: none;
+    border: 2px solid gray;
+    height: 40px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#text{
+  width: 450px;
+  overflow: hidden;
+}
+#delete{
+  display: block;
+  float: left;
+}
+
+#complete{
+  display: block;
+  float: left;
+}
+
+.list-item:hover button {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+  }
+
+.list-item button {
+    width: 40px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+.completed {
+    background-color: rgba(0, 255, 0, 0.8);
+   }

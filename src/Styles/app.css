@@ -1,0 +1,10 @@
+@import 'input.css';
+@import 'list.css';
+@import 'title.css';
+@import "item.css";
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.title-container {
+  width: 100%;
+  height: 40px;
+  border: solid 2px black;
+  margin: 50px auto;
+}
+
+
+.title {
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
