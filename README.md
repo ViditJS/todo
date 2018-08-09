@@ -6,12 +6,12 @@ Item.js
 List.js
 Title.js
 
-##Containers
+## Containers
 App.js
 Input.js
 ToDoList.js
 
-##Styles
+## Styles
 app.css
 input.css
 item.css
